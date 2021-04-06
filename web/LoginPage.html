@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
+    </head>
+    <body>
+        <font size="+6" color="blue">Log-in</font>
+        <br><br>
+        <form action="login" method="POST">
+            Email: &emsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="txtEmail" value="" /></br><br>
+            Password: &nbsp;&nbsp;&nbsp;&nbsp; <input type="password" name="txtPassword" value="" /></br>
+            <br>
+            <div class="g-recaptcha"
+                 data-sitekey="6LelZAsTAAAAAAv1ADYDnq8AzbmPmbMvjh-xhfgB"></div>
+            <input type="submit" value="Submit" /> </br>       
+        </form>
+        <form action="SIGNUP_PAGE">
+            <br>  <input type="submit" value="SignUp" />
+        </form>
+        <br>
+        <a href="StartUpServlet" > CAR RENTAL</a>
+    </body>
+</html>
